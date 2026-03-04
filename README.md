@@ -23,7 +23,7 @@ O site está publicado no GitHub Pages e pode ser acessado pelo link:
 ## 📂 Estrutura de arquivos
 
 ```
-agencia-noticias/
+NEW-NEWS-PROJ/
 ├── index.html
 ├── css/
 │   └── estilo.css
@@ -33,6 +33,7 @@ agencia-noticias/
 │   ├── formatura.jpg
 │   ├── feira-ciencias.jpg
 │   └── futebol.jpg
+│   └── imagens/imagensbanner.jpg
 ├── noticias/
 │   ├── formatura.html
 │   ├── feira-ciencias.html

@@ -1,6 +1,6 @@
 # 📰 NEW NEWS
 
-![Banner do projeto](imagens/banner.jpg)
+![Banner do projeto](imagens/imagensbanner.jpg)
 
 ## 📋 Sobre o Projeto
 

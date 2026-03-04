@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatura - Agência Escolar</title>
+    
+    <!-- Este arquivo herda as cores e fontes da página principal! -->
+    <link rel="stylesheet" href="../index.html">
+    
+    <style>
+        /* ===== IMPORTANDO ESTILOS DA PÁGINA PRINCIPAL ===== */
+        /* As cores e fontes serão aplicadas automaticamente */
+        
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+            color: #333;
+        }
+        
+        .container-noticia {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+        }
+        
+        /* ===== ESTILOS HERDADOS (repetidos para funcionar) ===== */
+        :root {
+            --cor-principal: #2c3e50;
+            --cor-secundaria: #3498db;
+            --cor-destaque: #e74c3c;
+        }
+        
+        h1, h2, h3, h4 {
+            color: var(--cor-principal);
+            font-family: inherit;
+        }
+        
+        .tag {
+            display: inline-block;
+            background: var(--cor-destaque);
+            color: white;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+        
+        .imagem-noticia {
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        
+        .botao-voltar {
+            display: inline-block;
+            background: var(--cor-secundaria);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: 600;
+            margin-top: 30px;
+            transition: background 0.3s;
+        }
+        
+        .botao-voltar:hover {
+            opacity: 0.9;
+        }
+        
+        .data-noticia {
+            color: #666;
+            font-size: 0.9rem;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .lead {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: var(--cor-principal);
+            margin-bottom: 20px;
+            border-left: 4px solid var(--cor-destaque);
+            padding-left: 20px;
+        }
+        
+        .rodape-noticia {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            text-align: center;
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="container-noticia">
+        <!-- TAG DE CATEGORIA -->
+        <span class="tag">🎓 EDUCAÇÃO</span>
+        
+        <!-- TÍTULO DA NOTÍCIA -->
+        <h1 style="font-size: 2rem; margin-bottom: 10px;">Formatura da Turma de Desenvolvimento</h1>
+        
+        <!-- DATA DE PUBLICAÇÃO -->
+        <div class="data-noticia">
+            📅 12 de março de 2026 | 👥 Por: Ana Silva e Bruno Costa
+        </div>
+        
+        <!-- IMAGEM PRINCIPAL -->
+        <img src="../imagens/formatura.jpg" alt="Alunos formandos" class="imagem-noticia">
+        <p style="font-size: 0.9rem; color: #666; margin-top: 5px; text-align: center;">
+            Alunos comemoram formatura no auditório da escola (Foto: Daniel Santos)
+        </p>
+        
+        <!-- LEAD (RESPONDE AS 6 PERGUNTAS) -->
+        <div class="lead">
+            Alunos do curso técnico em Desenvolvimento de Sistemas celebraram a conclusão do curso 
+            na última segunda-feira (10), durante cerimônia no auditório da escola, reunindo familiares, 
+            professores e coordenadores em um momento emocionante de reconhecimento pelo esforço e dedicação.
+        </div>
+        
+        <!-- CORPO DA NOTÍCIA -->
+        <p>
+            A cerimônia de formatura da turma de 2025 do curso técnico em Desenvolvimento de Sistemas 
+            foi marcada por muita emoção e orgulho. Ao todo, 32 alunos receberam seus certificados 
+            após dois anos de aprendizado intenso, projetos desafiadores e muito crescimento profissional.
+        </p>
+        
+        <p>
+            O coordenador do curso, professor Carlos Mendes, destacou a resiliência da turma: 
+            <em>"Estes alunos enfrentaram desafios enormes, incluindo a adaptação ao ensino híbrido, 
+            mas nunca perderam o foco. Hoje, vemos profissionais preparados para o mercado de trabalho 
+            e cidadãos conscientes do seu papel na sociedade."</em>
+        </p>
+        
+        <p>
+            A aluna homenageada da noite, Maria Fernanda Oliveira, discursou em nome da turma: 
+            <em>"Foram noites sem dormir, códigos que não rodavam, mas também muitas conquistas, 
+            amizades e aprendizado. Saímos daqui não apenas programadores, mas solucionadores de problemas."</em>
+        </p>
+        
+        <p>
+            A cerimônia contou ainda com apresentação musical da banda da escola, homenagens aos 
+            professores e um coquetel de confraternização. Muitos alunos já estão inseridos no mercado 
+            de trabalho, atuando em empresas de tecnologia da região.
+        </p>
+        
+        <!-- INFORMAÇÕES COMPLEMENTARES -->
+        <div style="background: #f8f9fa; padding: 20px; border-radius: 8px; margin-top: 30px;">
+            <h3 style="margin-top: 0;">📋 Sobre o curso</h3>
+            <p style="margin-bottom: 0;">
+                O curso técnico em Desenvolvimento de Sistemas tem duração de 2 anos e forma profissionais 
+                capacitados para atuar com programação, bancos de dados, desenvolvimento web e mobile. 
+                A próxima turma terá inscrições abertas em julho de 2026.
+            </p>
+        </div>
+        
+        <!-- BOTÃO VOLTAR -->
+        <div class="rodape-noticia">
+            <a href="../index.html" class="botao-voltar">← Voltar para página inicial</a>
+        </div>
+    </div>
+</body>
+</html>

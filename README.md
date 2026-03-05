@@ -29,6 +29,8 @@ NEW-NEWS-PROJ/
 │   └── estilo.css
 ├── js/
 │   └── script.js
+├── audio/
+│   ├── audio/audio-fut.mp3
 ├── imagens/
 │   ├── formatura.jpg
 │   ├── feira-ciencias.jpg
